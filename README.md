@@ -1,4 +1,8 @@
 # Cloud_Computing
  SEBELUM PUSH JANGAN LUPA PULL!!!
 
-bikin pake html , css , javascript ajaa , ga usah pake php 
+Pembagian Tugas :
+Faiza : Headers
+Fauzi : Upload Konten
+Randi : Footers
+Bagas : PS1 Content
