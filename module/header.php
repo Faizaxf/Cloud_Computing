@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <nav class="desktop-nav navbar navbar-expand-lg navbar-light">
+  <nav class="desktop-nav">
     <div class="logo">
       <a class="navbar-brand" href="/"><img src="/assets/game/GAMER-removebg-preview-removebg-preview.png" alt="" width="auto-fit" height="70"
           class="d-inline-block align-text-top">
@@ -23,7 +23,3 @@
 
 </body>
 
-<!-- Bootstrap JS -->
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
