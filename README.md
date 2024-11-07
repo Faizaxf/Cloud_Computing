@@ -6,3 +6,5 @@ Faiza : Headers
 Fauzi : Upload Konten
 Randi : Footers
 Bagas : PS1 Content
+
+Konten
