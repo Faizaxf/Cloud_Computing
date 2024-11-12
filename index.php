@@ -1,5 +1,6 @@
 <head>
 <link rel="stylesheet" href="assets/style.css" />
+<link rel="stylesheet" href="/xampp/htdocs/mediaquaries.css">
 </head>
 
 <body>
