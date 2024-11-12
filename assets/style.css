@@ -10,6 +10,7 @@
 
 body {
     width: 100vw;
+    background-color: aqua;
 
 }
 
@@ -237,7 +238,7 @@ header .menu {
 .logos {
     overflow: hidden;
     padding: 140px 0;
-    background: white;
+    background: rgb(72, 72, 72);
     white-space: nowrap;
     position: relative;
 }
@@ -254,12 +255,12 @@ header .menu {
 
 .logos:before {
     left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(0, 0, 0));
 }
 
 .logos:after {
     right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(0, 0, 0));
 }
 
 .logos:hover .logos-slide {
@@ -273,7 +274,7 @@ header .menu {
 
 .logos-slide img {
     height: 200px;
-    margin: 0 50px;
+    margin: 0 20px;
 }
 
 /*header */
