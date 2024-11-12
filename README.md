@@ -6,6 +6,7 @@ Faiza : Headers
 Fauzi : Upload Konten
 Randi : Footers
 Bagas : PS1 Content
+Dzikri : PS2 Content
 
 Link Belajar : 
 https://www.w3schools.com/css/ (CSS)

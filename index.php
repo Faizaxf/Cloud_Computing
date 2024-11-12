@@ -1,16 +1,8 @@
 <body>
-
+    <header>
     <!-- Header -->
     <?php include 'module/header.php' ?>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-  </nav>
+    </header>
 </body>
 
 <body>
@@ -40,6 +32,7 @@
         <img src="./assets/game/SLUS_211.98_COV.png" />
       </div>
     </div>
+</div>
 </body>
 
 
