@@ -8,7 +8,7 @@
     <title>Awesome CSS Responsive Navigation menus</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/faiza.css" />
 </head>
 
 <body>
@@ -44,7 +44,7 @@
             </label>
         </div>
     </header>
-    <script src="script.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 
 </html>

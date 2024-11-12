@@ -1,16 +1,38 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+:root {
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --first-color: hsl(222, 80%, 58%);
+    --dark-color: hsl(222, 24%, 8%);
+    --title-color: hsl(222, 8%, 8%);
+    --text-color-light: hsl(240, 4%, 5%);
+    --white-color: #fff;
+    --body-color: hsl(222, 100%, 99%);
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: "Poppins", sans-serif;
+    --small-font-size: .813rem;
+}
+
+@media screen and (min-width: 968px) {
+    :root {
+        --small-font-size: .875rem;
+    }
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-    scroll-behavior: smooth;
+    font-family: Arial;
 }
 
 body {
-    width: 100vw;
-
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-color: black;
 }
 
 header {
@@ -22,11 +44,13 @@ header {
     position: fixed;
     z-index: 99;
     box-shadow: 0 0 10px #000;
-    background: rgba(0, 0, 0, 0.641);
+    background: rgb(0, 0, 0);
 }
 
 #chk1 {
     display: none;
+
+
 }
 
 i {
@@ -34,9 +58,9 @@ i {
     cursor: pointer;
 }
 
-header.logo {
+header .logo {
     flex: 1;
-    color: #ffffff;
+    color: #fff;
 
     margin-left: 50px;
     text-transform: uppercase;
@@ -65,8 +89,8 @@ header .search-box {
 
 .search-box button {
     cursor: pointer;
-    width: 46px;
-    height: 46px;
+    width: 40px;
+    height: 40px;
     border-radius: 30px;
     border: none;
     position: absolute;
@@ -221,59 +245,3 @@ header .menu {
 .show-search .search__close {
     opacity: 1;
 }
-
-/*Slide game overlay */
-
-@keyframes slide {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        transform: translateX(-100%);
-    }
-}
-
-.logos {
-    overflow: hidden;
-    padding: 140px 0;
-    background: white;
-    white-space: nowrap;
-    position: relative;
-}
-
-.logos:before,
-.logos:after {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    height: 100%;
-    content: "";
-    z-index: 2;
-}
-
-.logos:before {
-    left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
-}
-
-.logos:after {
-    right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
-}
-
-.logos:hover .logos-slide {
-    animation-play-state: paused;
-}
-
-.logos-slide {
-    display: inline-block;
-    animation: 45s slide infinite linear;
-}
-
-.logos-slide img {
-    height: 200px;
-    margin: 0 50px;
-}
-
-/*header */
