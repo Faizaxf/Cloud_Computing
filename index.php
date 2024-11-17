@@ -38,7 +38,11 @@
       </div>
     </div>
 </div>
+
+
 </body>
-
-
+    <footer>
+      <!-- FOOTER -->
+      <?php include 'module/footer.php' ?>
+    </footer>
 </body>
